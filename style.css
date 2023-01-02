@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  height: 44px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-color: #fff;
+}
+
+.header-logo a {
+  color: #272a31;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header-menu-button {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* .header-menu-button > div {
+  width: 16px;
+  height: 2px;
+  color: #d3d3d3;
+  /* color: transparent; */
+  /* overflow: hidden; */
+  /*transition: all 0.3s; */
+ 
+.header-menu-button a {
+  color: #d3d3d3;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.header-menu-button a:hover  {
+  color: #ec5242;
+}
+
+.nmc {
+  border: 4px solid #ec5242;
+}
+
+.nmc a {
+  text-align: center;
+  color: #ec5242;
+}
