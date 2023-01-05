@@ -1,161 +1,260 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
-header {
-  display: flex;
-  height: 67px;
-  margin-top: -10px;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
-  background-color: #fff;
+@media screen and (max-width: 900px){
+  
 }
 
-.header-logo {
-  margin-left: 200px;
-}
+/* desktop version */
 
-h5 a {
-  color: orangered;
-  font-family: 'Lato', sans-serif;
-  font-weight: lighter;
-  font-size: 20px;
-}
+@media screen and (max-width: 1728px) {
 
-.header-logo a {
-  color: #272a31;
-  font-weight: 700;
-  text-decoration: none;
-}
+  /* home-page section */
 
-.header-menu-button {
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  cursor: pointer;
-}
+  header {
+    display: flex;
+    height: 67px;
+    margin-top: -10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background-color: #fff;
+  }
 
-.header-menu-button a {
-  color: #d3d3d3;
-  text-decoration: none;
-  padding: 25px;
-  text-align: center;
-}
+  .header-logo {
+    margin-left: 200px;
+  }
 
-.nmc a {
-  text-align: center;
-  color: #ec5242;
-}
+  h5 a {
+    color: orangered;
+    font-family: "Lato", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+  }
 
-h5 a:hover {
-  color: gold;
-}
+  .header-logo a {
+    color: #272a31;
+    font-weight: 700;
+    text-decoration: none;
+  }
 
-.header-menu-button a:hover {
-  color: #ec5242;
-}
+  .header-logo a:hover {
+    color: orangered;
+  }
 
-.nmc {
-  border: 4px solid #ec5242;
-}
+  .header-menu-button {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
-.home-page {
-  background-image: url("./images/music concert bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 768px;
-  color: gold;
-  margin-top: -58px;
-}
+  .header-menu-button a {
+    color: #d3d3d3;
+    text-decoration: none;
+    padding: 25px;
+    text-align: center;
+  }
 
-h1 {
-  font-family: 'Lato', sans-serif;
-  font-size: 70px;
-  margin-left: 20px;
-  padding-top: 70px;
-  padding-left: 200px;
-  text-transform: uppercase;
-}
+  .nmc a {
+    text-align: center;
+    color: #ec5242;
+  }
 
-p {
-  font-family: 'Lato', sans-serif;
-  padding-left: 200px;
-  margin-left: 20px;
-  font-weight: bold;
-}
+  h5 a:hover {
+    color: gold;
+  }
 
-h3 {
-  font-family: 'Lato', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  padding-left: 200px;
-  margin-left: 20px;
-}
+  .header-menu-button a:hover {
+    color: #ec5242;
+  }
 
-img {
-  height: 50px;
-  width: 50px;
-  margin-left: 68px;
-}
+  .nmc {
+    border: 4px solid #ec5242;
+  }
 
-.container1 img {
-  height: 50px;
-  width: 100px;
-  background-color: grey;
-}
+  .home-page {
+    background-image: url("./images/music concert bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 768px;
+    color: gold;
+    margin-top: -58px;
+  }
 
-.main-program {
-  background-image: url("./images/blck bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  height: 400px;
-  width: 100%;
-  margin-top: -20px;
-}
+  h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 70px;
+    margin-left: 20px;
+    padding-top: 70px;
+    padding-left: 200px;
+    text-transform: uppercase;
+  }
 
-.main-program h2 {
-  text-align: center;
-  color: orangered;
-  margin-top: 50px;
-}
+  p {
+    font-family: "Lato", sans-serif;
+    padding-left: 200px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  padding: 5px;
-}
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 50px;
+    margin-left: 100px;
+  }
 
-.first-box-container {
-  height: 250px;
-  width: 12%;
-  background-color: orangered;
-  margin-left: 400px;
-  opacity: 0.8;
-}
+  .date {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 38%;
+    margin-left: 0;
+    color: gold;
+  }
 
-h4 {
-  margin-top: -70px;
-  padding-top: 80px;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-}
+  img {
+    height: 50px;
+    width: 50px;
+    margin-left: 68px;
+  }
 
-.p-graph {
-  margin: -90px;
-  padding-left: 95px;
-  padding-top: 100px;
-}
+  .container1 img {
+    height: 50px;
+    width: 100px;
+    background-color: grey;
+  }
 
-.second-box-container {
-  height: 250px;
-  width: 12%;
-  background-color: orangered;
-  margin-left: 5px;
-  opacity: 0.8;
-}
+  .main-program {
+    background-image: url("./images/blck bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+    width: 100%;
+    margin-top: -20px;
+  }
 
-h5 {
-  text-align: center;
+  .main-program h2 {
+    text-align: center;
+    color: orangered;
+    margin-top: 50px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+  }
+
+  .first-box-container {
+    height: 250px;
+    width: 12%;
+    background-color: orangered;
+    margin-left: 400px;
+    opacity: 0.8;
+  }
+
+  h4 {
+    margin-top: -70px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+
+  .p-graph {
+    margin: -90px;
+    padding-left: 95px;
+    padding-top: 100px;
+  }
+
+  .second-box-container {
+    height: 250px;
+    width: 12%;
+    background-color: orangered;
+    margin-left: 5px;
+    opacity: 0.8;
+  }
+
+  h5 {
+    text-align: center;
+  }
+
+  /* about-page section */
+
+  .about-page {
+    background-image: url("./images/bg 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 768px;
+    margin-top: -58px;
+  }
+
+  .title {
+    color: orangered;
+    text-align: center;
+    margin-right: 200px;
+  }
+
+  pre {
+    margin-left: 150px;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    margin-right: 0;
+    color: white;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    line-height: 20px;
+    padding-left: 100px;
+    padding-top: 30px;
+  }
+
+  .info {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 200px;
+  }
+
+  .info a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .info a:hover {
+    color: orangered;
+    text-decoration: underline;
+  }
+
+  h3 {
+    color: black;
+    text-align: center;
+    margin-right: 200px;
+  }
+
+  .logo-style {
+    color: orangered;
+    margin-top: -70px;
+    margin-bottom: 10;
+    font-size: 25px;
+  }
+
+  #about-logo {
+    border-bottom: 1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+  }
+
+  footer {
+    background-color: #272a31;
+    color: white;
+  }
 }
