@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
-@media screen and (max-width: 900px){
-  
+@media screen and (max-width: 900px) {
 }
 
 /* desktop version */
 
 @media screen and (max-width: 1728px) {
-
   /* home-page section */
 
   header {
@@ -37,18 +35,6 @@
     text-decoration: none;
   }
 
-  .header-logo a:hover {
-    color: orangered;
-  }
-
-  .header-menu-button {
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
   .header-menu-button a {
     color: #d3d3d3;
     text-decoration: none;
@@ -63,6 +49,18 @@
 
   h5 a:hover {
     color: gold;
+  }
+
+  .header-logo a:hover {
+    color: orangered;
+  }
+
+  .header-menu-button {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    cursor: pointer;
   }
 
   .header-menu-button a:hover {
@@ -105,6 +103,9 @@
     font-weight: bold;
     padding-left: 50px;
     margin-left: 100px;
+    color: black;
+    text-align: center;
+    margin-right: 200px;
   }
 
   .date {
@@ -232,16 +233,10 @@
     text-decoration: underline;
   }
 
-  h3 {
-    color: black;
-    text-align: center;
-    margin-right: 200px;
-  }
-
   .logo-style {
     color: orangered;
     margin-top: -70px;
-    margin-bottom: 10;
+    margin-bottom: 10px;
     font-size: 25px;
   }
 
