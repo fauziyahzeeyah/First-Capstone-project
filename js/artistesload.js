@@ -43,7 +43,7 @@ const artisteData = [
   },
 ];
 function allArtistesCards(artiste) {
-  const container = document.querySelector("#desktop_speakers");
+  const container = document.querySelector("#desktop_artistes");
   const artistesCards = container.querySelectorAll(".col-6");
 
   for (let i = 0; i < artiste.length; i++) {

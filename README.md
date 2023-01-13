@@ -61,6 +61,7 @@ In order to run this project you need:
 - A computer or a Mobile phone
 - Internet connection 
 - Web browser
+- IDE
 
 ### Setup
 
@@ -92,16 +93,15 @@ To run the project, open Index.HTML in your web browser
 
 - GitHub: [@zeeyah](https://github.com/fauziyahzeeyah)
 - Twitter: [@FauziyahZeeyah](https://twitter.com/FauziyahZeeyah?t=5x4tHwdJG62bloZ3QehDcw&s=08)
-- LinkedIn: [@Zeeyah Bashiru](https://www.linkedin.com/in/zeeyah-bashiru-835097260/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Icon befor title]**
-- [ ] **[Profile picture of myself beside name]**
-- [ ] **[webpage footer]**
+- [ ] **[validating the email address]**
+- [ ] **[Adding popups]**
+- [ ] **[Making every link work]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

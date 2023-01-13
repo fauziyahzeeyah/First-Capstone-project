@@ -109,13 +109,39 @@ a {
   display: flex;
   justify-content: center;
   gap: 1% !important;
+  animation: 2s slideout;
+}
+@keyframes slideout {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+
+  to {
+    margin-left: 0;
+    width: 100%;
+  }
 }
 .cards {
   display: flex;
   margin-top: 5%;
   justify-content: center;
   gap: 0.5%;
+  animation: 3s slidein;
 }
+  @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+
 .cards div {
   background-color: #3d404783;
 }
@@ -162,10 +188,14 @@ a {
   font-family: "lato", sans-serif;
   color: #000000;
 }
-.speakers img {
+.artistes img {
   width: 100%;
 }
-.speakers_cards {
+.artistes img:hover {
+  cursor:pointer;
+  width: 110%;
+}
+.artistes_cards {
   margin-top: 5%;
 }
 .name {
@@ -380,7 +410,18 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    animation: 2s dropdown;
   }
+  @keyframes dropdown {
+  from {
+    margin-top: -100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+
   .cards div p {
     color: white;
     text-align: initial;
@@ -409,7 +450,7 @@ a {
   #mobile_skpeakers {
     display: block;
   }
-  #desktop_speakers {
+  #desktop_artistes {
     display: none;
   }
   .partners {
