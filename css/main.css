@@ -391,6 +391,13 @@ a {
   margin-top: 2%;
 }
 
+.submit_paragraph p {
+  text-align: center;
+  padding-left: 2%;
+  padding-top: 3%;
+  font-weight: bold;
+}
+
 .images_section {
   margin-top: 5%;
 }
