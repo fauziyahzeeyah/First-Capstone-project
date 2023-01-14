@@ -13,7 +13,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo and loom video](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -45,9 +45,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo and loom video <a name="live-demo"></a>
 
 - [Live Demo Link](https://fauziyahzeeyah.github.io/First-Capstone-project/)
+
+- [Loom Video Link] (https://www.loom.com/share/a40dbc37f6384f61b3fcc3f80a5698b1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
