@@ -47,7 +47,7 @@
 
 - [Live Demo Link](https://fauziyahzeeyah.github.io/First-Capstone-project/)
 
-- [Loom Video Link] (https://www.loom.com/share/a40dbc37f6384f61b3fcc3f80a5698b1)
+- [Loom Video Link] (https://www.loom.com/share/427248770d964e93892001f6bb3887b7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
