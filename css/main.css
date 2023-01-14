@@ -56,7 +56,7 @@ a {
 .organisation a {
   font-weight: bold;
   text-decoration: none;
-  color: wheat;
+  color: #000;
 }
 
 .footer_paragraph_gmail a {
@@ -104,17 +104,18 @@ a {
 .main-section {
   height: auto;
   padding-bottom: 10%;
+  width: 100%;
 }
 
 .main_header {
   font-size: 45px;
-  color: white;
+  color: #ec5242;
   font-weight: bold;
   padding-top: 6%;
 }
 
 .main_paragraph {
-  background-color: wheat;
+  background-color: #fff;
   padding: 2% 2%;
   border: 6px solid white;
 }
@@ -130,14 +131,14 @@ a {
 .bottom-header .header-paragraph {
   font-family: "lato", sans-serif;
   font-size: 22px;
-  color: #fff;
+  color: #272a31;
 }
 
 .bottom-header p {
   font-family: "lato", sans-serif;
   font-size: 17px;
   font-weight: bold;
-  color: #fff;
+  color: #272a31;
 }
 
 .midder_section {
@@ -209,6 +210,12 @@ a {
   padding-left: 2%;
   padding-top: 3%;
   font-weight: bold;
+}
+
+.about_paragraph_container p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5%;
 }
 
 .cards div p {
@@ -324,7 +331,7 @@ a {
 /* ---------------------------ABOUT PAGE ---------------------------- */
 .about_header {
   font-size: 50px;
-  color: #fff;
+  color: #ec5242;
   font-weight: 900;
   text-transform: uppercase;
   padding-top: 8%;
@@ -342,7 +349,7 @@ a {
 }
 
 .about_paragraph_second {
-  background-color: wheat;
+  background-color: #fff;
   font-size: 18px;
   color: rgb(51, 51, 51);
   padding: 5%;
@@ -358,13 +365,19 @@ a {
 .about_buttom_paragraph {
   text-align: center;
   padding-top: 4%;
-  color: wheat;
+  color: #000;
 }
 
 .about_middle_section {
   background-color: white;
   padding-top: 2%;
   font-size: 30px;
+}
+
+.about_middle_container h2 {
+  text-align: center;
+  position: relative;
+  right: 25%;
 }
 
 .about_divider {
