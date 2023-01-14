@@ -4,7 +4,6 @@
   <img src="images\nmc 2.webp" alt="logo" width="140"  height="auto" />
   <br/>
 
-
 </div>
 
 # 📗 Table of Contents
