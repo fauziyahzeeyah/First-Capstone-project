@@ -93,16 +93,15 @@ To run the project, open Index.HTML in your web browser
 
 - GitHub: [@zeeyah](https://github.com/fauziyahzeeyah)
 - Twitter: [@FauziyahZeeyah](https://twitter.com/FauziyahZeeyah?t=5x4tHwdJG62bloZ3QehDcw&s=08)
-- LinkedIn: [@Zeeyah Bashiru](https://www.linkedin.com/in/zeeyah-bashiru-835097260/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Icon befor title]**
-- [ ] **[Profile picture of myself beside name]**
-- [ ] **[webpage footer]**
+- [ ] **[validating the email address]**
+- [ ] **[Adding popups]**
+- [ ] **[Making every link work]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,6 +118,12 @@ Feel free to check the [issues page](https://github.com/fauziyahzeeyah/First-Cap
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project give it a star and follow me
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank [Cindy Shin.](https://www.behance.net/adagio07) of the great design in Behance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
