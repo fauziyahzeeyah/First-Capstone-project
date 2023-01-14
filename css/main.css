@@ -204,6 +204,13 @@ a {
   border: 2px solid white;
 }
 
+.submit_paragraph p {
+  text-align: center;
+  padding-left: 2%;
+  padding-top: 3%;
+  font-weight: bold;
+}
+
 .cards div p {
   color: white;
   text-align: center;
@@ -389,13 +396,6 @@ a {
   height: 3px;
   background-color: #ec5242;
   margin-top: 2%;
-}
-
-.submit_paragraph p {
-  text-align: center;
-  padding-left: 2%;
-  padding-top: 3%;
-  font-weight: bold;
 }
 
 .images_section {
